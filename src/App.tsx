@@ -9,6 +9,8 @@ import ResumePage from "./components/ResumePage";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimontials";
 import Totop from "./atoms/Layout/Totop";
+import { Analytics } from "@vercel/analytics/react"; 
+
 
 const App = () => {
   const [showIntroScreen, setShowIntroScreen] = useState(true);
@@ -231,6 +233,8 @@ const App = () => {
         <Projects />
         <Services />
         <Footer />
+              <Analytics />
+
       </div>
 
       {/* CSS Animations */}
