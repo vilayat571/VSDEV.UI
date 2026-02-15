@@ -7,19 +7,21 @@ import ResumePage from "./components/ResumePage";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimontials";
 import Totop from "./atoms/Layout/Totop";
+import { Analytics } from "@vercel/analytics/react"; // Changed from /next to /react
 
 const App = () => {
   return (
     <div>
       <Totop />
       <Navbar />
-      <Intro /> 
+      <Intro />
       <About />
       <Testimonials />
       <ResumePage />
       <Projects />
       <Services />
       <Footer />
+      <Analytics />
     </div>
   );
 };
