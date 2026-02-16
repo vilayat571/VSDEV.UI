@@ -8,8 +8,8 @@ import Projects from "./components/Projects";
 import ResumePage from "./components/ResumePage";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimontials";
-import Totop from "./atoms/Layout/Totop";
 import { Analytics } from "@vercel/analytics/react"; 
+import Totop from "./atoms/Layout/Totop";
 
 
 const App = () => {
